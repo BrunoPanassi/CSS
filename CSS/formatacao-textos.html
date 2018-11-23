@@ -1,0 +1,66 @@
+<!doctype html>
+
+<html>
+
+<head>
+    <title>Formatações de textos</title>
+    <meta charset="utf-8" />
+
+    <style type="text/css">
+
+        div{
+            font-size: 16px;
+        }
+
+        p{
+            font-size: 30px;
+            font-family: "Georgia";
+        }
+
+        .texto{
+            font-size: 16px;
+                /*Tamanho padrão de texto para o browser*/
+            /*font-size: 200%;*/ 
+                /*'16px' é o tamanho padrão que o browser usa, portanto se colocar como '200%' será usado o dobro do tamanho de '16px'*/
+            /*font-size: 1em;*/
+                /*'1em' equivale a '16px'*/
+
+            /*Quando a formatação é colocada como 'em' ou '%' ela pode variar de tamanho dependendo de como o tamanho fonte ser, 
+            diferente de setar fixamente o tamanho diretamente em 'px'*/
+        }
+
+        .negrito{
+            font-weight: bold; /*'bold' coloca o texto em negrito, podendo também ao invés de colocar como 'bold', pode colocar um valor variando de 100 a 900 como a intensidade
+                                do 'negrito' no texto*/
+        }
+
+        .estilo{
+            font-style: italic; /*Pode se usar dois estilos, 'italic' e 'oblique'*/
+        }
+
+        .texto-padrao{
+            font: bold 40px "Palatino Linotype", "Book Antiqua", Palatino, serif; /*Todas as formatações de um texto usando somente a tag 'font'*/
+        }
+
+        .formatacao{
+            text-decoration: underline; /*Podendo deixar o texto como sublinhado, uma linha na parte superior do texto (overline), e uma linha 'cortando' o texto (line-through)*/
+        }
+
+    </style>
+</head>
+
+<body>
+    <div>
+        <p class="texto">
+            Lorem ipsum <span class="formatacao">dolor</span> sit amet, consectetur adipiscing elit.
+        </p>
+
+        <p class="negrito">Conteúdo 1</p>
+
+        <p class="estilo">Conteúdo 2</p>
+
+        <p class="texto-padrao">Conteúdo 3</p>
+    </div>
+</body>
+
+</html>

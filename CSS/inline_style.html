@@ -1,0 +1,64 @@
+<!doctype html>
+
+<html>
+
+<head>
+    <title>Site</title>
+    <meta charset="utf-8" />
+
+    <!--Internal CSS-->
+                    <!--Dentro da tag 'style' é colocado os seletores para as definidas tags e quais estilos vão ter cada, como por exemplo um seletor para parágrafos, 
+                        basta colocar a tag 'p' e os definidos valores, e assim todos os 'p' dentro de 'body' vão ter os valores que foram setados em 'style'-->
+    <style type="text/css">  
+
+        p{
+            color: red;
+            border: 1px solid blue;
+        }   
+
+        .paragrafo{
+            color: blue;
+            border: 1px solid red;
+        }    
+
+        #verde{
+            color: green;
+        }                   
+
+    </style>
+</head>
+
+<body>
+    <h1 id="verde">Estilo CSS (Cascading Style Sheets)</h1> <!--(Folha de estilo em cascata)-->
+        <!--A tag 'id' é criada na tag style como '#id' e setado os definidos valores, é recomendado usar somente uma vez para uma única tag para identificação-->
+
+    <p class="paragrafo"> <!--A tag 'class' é definida para criar uma classe, sendo declarada dentro da tag style como '.class' e dado os definidos valores-->
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vel ex ut purus dignissim sodales vel sed dolor. Aenean mauris
+        erat, iaculis pretium ornare nec, eleifend malesuada massa. Curabitur venenatis eros et laoreet ultricies. Sed in
+        hendrerit tortor. Vivamus vehicula felis augue. Duis pulvinar augue ipsum, in efficitur est fermentum at. Quisque
+        malesuada malesuada nibh, id tincidunt tellus faucibus quis. Morbi quis nibh sapien. Vivamus auctor dapibus lobortis.
+        In lobortis vulputate velit, in blandit ligula. Integer aliquam felis eget sodales porta. Aenean cursus convallis
+        est, ac dignissim justo tincidunt eget. Sed lobortis sem eget eros mollis condimentum. Nullam quis vulputate ipsum.
+    </p>
+
+    <p style = "color:green; border: 1px solid black"> <!--Estilo Inline é onde a formatação é aplicada diretamente na tag, colocando como "style" e setando os valores, isso dificulta a manutenção do código, pois caso 
+                                                            a cor do texto de todos os paragrafos tenha que ser mudada, você teria que ir um por um alterando-->
+        Suspendisse in urna aliquam elit elementum laoreet. Pellentesque volutpat tellus in nunc pellentesque condimentum.
+        Aliquam vehicula justo et nibh efficitur, nec feugiat arcu blandit. Cras hendrerit mi id fermentum blandit. Donec
+        augue sapien, pellentesque id nunc sit amet, porta fringilla risus. Pellentesque accumsan mollis mi non tempor. Quisque
+        viverra risus a dictum viverra. Pellentesque non feugiat ante, eu bibendum nisi. Quisque venenatis diam non massa
+        malesuada aliquam. Aliquam tincidunt lacinia nisl, id pharetra mi dignissim eget. Integer laoreet leo vitae euismod
+        mattis.
+    </p>
+
+    <p>
+        Suspendisse in urna aliquam elit elementum laoreet. Pellentesque volutpat tellus in nunc pellentesque condimentum.
+        Aliquam vehicula justo et nibh efficitur, nec feugiat arcu blandit. Cras hendrerit mi id fermentum blandit. Donec
+        augue sapien, pellentesque id nunc sit amet, porta fringilla risus. Pellentesque accumsan mollis mi non tempor. Quisque
+        viverra risus a dictum viverra. Pellentesque non feugiat ante, eu bibendum nisi. Quisque venenatis diam non massa
+        malesuada aliquam. Aliquam tincidunt lacinia nisl, id pharetra mi dignissim eget. Integer laoreet leo vitae euismod
+        mattis. 
+    </p>
+</body>
+
+</html>

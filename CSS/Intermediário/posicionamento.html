@@ -1,0 +1,89 @@
+<!doctype html>
+
+<html>
+
+<head>
+    <title>Posicionamento</title>
+    <meta charset="utf-8" />
+
+    <style type="text/css">
+
+        body{
+            background: #61bd8c;
+        }
+
+        #conteudo-principal{
+            background: #FFFFFF;
+            padding: 10px;
+            width: 600px;
+            height: 2500px;
+            margin: 30px auto; /*Quando é usado o valor 'auto' para a propriedade 'margin', a quantidade de pixels será ajustada automaticamente conforme o tamanho da página*/
+            margin-top: 120px;
+        }
+
+        .caixa{
+            background: #1e6f44;
+            width: 100px;
+            height: 100px;
+            color: #FFFFFF;
+        }
+
+        #relativo{
+           position: relative; /*Posicionamento do objeto será relativo à sua posição original*/
+           left: 30px; /*Não é a propriedade 'margin' é apenas dizendo para ficar 30 pixels à esquerda da sua posição original*/
+           top: 0px;
+        }
+
+        #absoluta{
+            position: absolute; /*Quando um elemento tem a propriedade 'absolute' ele não respeita o fluxo do objeto que ele se encontra dentro, não mudando a sua posição*/
+            top: 0; /*Deixando como 0 a posição no 'top', ele vai para o ponto 0 da pagína na direção 'top', em relação à posição do seu parente mais próximo*/
+            left: 0;
+        }
+
+        #fixo{
+            position: fixed; /*A propriedade 'fixed' fica posicionada em relação ao 'viewport' do browser, não relacionada ao seu parente mais próximo, ficando fixada na mesma posição
+                             mesmo com o 'scroll' da página*/
+            top: 0;
+            left: 0;
+            width: 100%;
+            background: #000;
+        }
+
+        /*
+        Elementos
+        
+        BLock
+        Elementos que ocupam todo o espaço da tela e ficam um em baixo do outro
+        Exemplos: n1, p, tablea.
+
+        Inline
+        Elementos que se comportam em linha um do lado do outro, e conforme o seu tamanho, vai sendo aumentado o tamanho do conteudo. 
+        Exemplos: a, span, img.
+
+        Inline-Block
+        Elementos que tem uma largura definida pelo tamanho do seu conteúdo, mas se comportam em 'block', para definir isso, é usado a propriedade 'display: inline-block'
+        Caso um elemento Inline tenha a propriedade 'display: block', ele se comportará como block mesmo sendo Inline.
+        */
+
+    </style>
+
+</head>
+
+<body>
+
+    <div id="conteudo-principal">
+        <h1>Posicionamento</h1>
+
+        <h4>Relative</h4>
+        <div id="relativo" class="caixa">Relative</div>
+
+        <h4>Absolute</h4>
+        <div id="absoluta" class="caixa">Absolute</div>
+
+        <h4>Fixed</h4>
+        <div id="fixo" class="caixa">Fixed</div>
+    </div>
+
+</body>
+
+</html>

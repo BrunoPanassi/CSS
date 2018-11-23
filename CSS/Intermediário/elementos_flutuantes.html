@@ -1,0 +1,68 @@
+<!doctype html>
+
+<html>
+
+<head>
+    <title>Elementos Flutuantes</title>
+    <meta charset="utf-8" />
+
+    <style type="text/css">
+
+        #resumo-noticia{
+            border: 1px solid gray;
+            width: 250px;
+            height: 300px;
+            float: left; /*Quando é usado a propriedade 'float' com o valor 'left', os elementos tendem à se posicionar sempre a esquerda de qualquer objeto*/
+            margin: 10px;
+        }
+
+        .clear{
+            clear: both; /*A propriedade 'clear' é usada quando não quer ser afetada por objetos que estejam usando o 'float'*/
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <div id="resumo-noticia">
+        <h2>Elemento Flutuante 1</h2>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dictum, massa quis luctus posuere, justo nisl aliquam magna,
+            ac porta mauris dui lobortis erat. Maecenas facilisis venenatis bibendum. Integer sed placerat est, quis malesuada
+            orci. Pellentesque nec pellentesque nunc. Morbi bibendum erat eget ultricies lobortis.
+        </p>
+    </div>
+
+    <div id="resumo-noticia">
+        <h2>Elemento Flutuante 2</h2>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dictum, massa quis luctus posuere, justo nisl aliquam magna,
+            ac porta mauris dui lobortis erat. Maecenas facilisis venenatis bibendum. Integer sed placerat est, quis malesuada
+            orci. Pellentesque nec pellentesque nunc. Morbi bibendum erat eget ultricies lobortis.
+        </p>
+    </div>
+
+    <div id="resumo-noticia">
+        <h2>Elemento Flutuante 3</h2>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dictum, massa quis luctus posuere, justo nisl aliquam magna,
+            ac porta mauris dui lobortis erat. Maecenas facilisis venenatis bibendum. Integer sed placerat est, quis malesuada
+            orci. Pellentesque nec pellentesque nunc. Morbi bibendum erat eget ultricies lobortis.
+        </p>
+    </div>
+
+    <div class="clear">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dictum, massa quis luctus posuere, justo nisl aliquam magna,
+        ac porta mauris dui lobortis erat. Maecenas facilisis venenatis bibendum. Integer sed placerat est, quis malesuada
+        orci. Pellentesque nec pellentesque nunc. Morbi bibendum erat eget ultricies lobortis.
+    </div>
+
+    <div>
+        Todos os direitos reservados
+    </div>
+
+</body>
+
+</html>
