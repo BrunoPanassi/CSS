@@ -1,3 +1,23 @@
-body{
-    background-color: #4966b0;
+/*------Seletores------*/
+*{
+    margin: 0;
+    padding: 0;
 }
+
+body{
+    background-color: #e8e9ec;
+}
+/*---------------------*/
+
+/*------ID´s------*/
+#cabecalho{
+    background-color: #4966b0;
+    height: 250px;
+    border: 1px solid #4966b0;
+}
+
+#logo{
+    position: relative;
+    width: 562px;
+    margin: 88px auto;
+/*----------------*/
