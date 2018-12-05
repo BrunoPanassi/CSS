@@ -10,14 +10,14 @@ body{
 
 h1{
     font-weight: bold;
-    font-size: 2.5em;
-    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
     color: #394e84;
 }
 
 h2{
-    font-weight: bold;
-    font-size: 2em;
+    /*font-weight: bold;*/
+    font-size: 1.5em;
     font-family: Arial, Helvetica, sans-serif;
 }
 /*---------------------*/
@@ -45,17 +45,16 @@ h2{
 }
 
 #caixa_1_texto{
-    margin: 68px auto;
-    margin-right: 100px;
+    margin: 91.2px auto;
+    margin-right: 250px;
     margin-left: 0;
     float: right;
 }
 
 #caixa_1_logo{
-   height: 300px;
-   margin-left: 160px;
-   margin-right: 0;
-    float: left;
+   height: 240px;
+   margin: 70px 0px 0px 240px;
+   float: left;
 }
 /*----------------*/
 
@@ -69,8 +68,9 @@ h2{
 
 .caixa_azul{
     background-color: #4966b0;
-    border: 1px solid #4966b0;
-    height: 300px
+    padding: 10px;
+    height: 300px;
+    text-align: center;
 }
 /*-------------*/
 
