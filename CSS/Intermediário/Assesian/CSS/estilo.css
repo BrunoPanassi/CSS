@@ -7,19 +7,6 @@
 body{
     background-color: #e8e9ec;
 }
-
-h1{
-    font-weight: bold;
-    font-size: 2em;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #394e84;
-}
-
-h2{
-    /*font-weight: bold;*/
-    font-size: 1.5em;
-    font-family: Arial, Helvetica, sans-serif;
-}
 /*---------------------*/
 
 /*------ID´s------*/
@@ -46,15 +33,28 @@ h2{
 
 #caixa_1_texto{
     margin: 91.2px auto;
-    margin-right: 250px;
+    margin-right: 270px;
     margin-left: 0;
     float: right;
 }
 
 #caixa_1_logo{
    height: 240px;
-   margin: 70px 0px 0px 240px;
+   margin: 30px 0px 30px 270px;
    float: left;
+}
+
+#caixa_2_logo{
+    height: 240px;
+    margin: 70px 0px 0px 270px;;
+    float: left;
+}
+
+#caixa_2_texto{
+    margin: 91.2px auto;
+    margin-right: 100px;
+    margin-left: 0;
+    float: right;
 }
 /*----------------*/
 
@@ -65,6 +65,17 @@ h2{
     height: 300px;
     text-align: center;
 }
+    .caixa_branca_h1{
+        font-weight: bold;
+        font-size: 2em;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #394e84;
+    }
+
+    .caixa_branca_h2{
+        font-size: 1.5em;
+        font-family: Arial, Helvetica, sans-serif;
+    }
 
 .caixa_azul{
     background-color: #4966b0;
@@ -72,6 +83,19 @@ h2{
     height: 300px;
     text-align: center;
 }
+    .caixa_azul_h1{
+        font-weight: bold;
+        font-size: 2em;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #ffffff;
+    }
+
+    .caixa_azul_h2{
+        font-size: 1.5em;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #ffffff;
+        font-weight: inherit;
+    }
 /*-------------*/
 
 
