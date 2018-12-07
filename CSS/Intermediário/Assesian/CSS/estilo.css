@@ -36,6 +36,7 @@ body{
     margin-right: 270px;
     margin-left: 0;
     float: right;
+    width: 600.25px;
 }
 
 #caixa_1_logo{
@@ -45,16 +46,22 @@ body{
 }
 
 #caixa_2_logo{
-    height: 240px;
-    margin: 70px 0px 0px 270px;;
+    height: 220px;
+    margin: 90px 0px 0px 270px;;
     float: left;
 }
 
 #caixa_2_texto{
     margin: 91.2px auto;
-    margin-right: 100px;
+    margin-right: 270px;
     margin-left: 0;
     float: right;
+    width: 600.25px;
+}
+
+#caixa_3_texto{
+    margin: 91.2px auto;
+    width: 600.25px;
 }
 /*----------------*/
 
@@ -96,6 +103,12 @@ body{
         color: #ffffff;
         font-weight: inherit;
     }
+
+.footer{
+    background-color: #232222;
+    width: 100%;
+    height: 30px;
+}
 /*-------------*/
 
 
