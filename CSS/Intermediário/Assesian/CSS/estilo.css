@@ -18,7 +18,7 @@ body{
 }
 
 #logo{
-    width: 281px;
+    /*width: 281px;*/
     height: 40px;
     margin: 10px auto;
     margin-left: 30px;
@@ -32,31 +32,37 @@ body{
 }
 
 #caixa_1_texto{
-    margin: 91.2px auto;
-    margin-right: 270px;
+    margin: 69.5px auto;
+    margin-right: 150px;
     margin-left: 0;
     float: right;
     width: 600.25px;
 }
 
 #caixa_1_logo{
-   height: 240px;
-   margin: 30px 0px 30px 270px;
+   height: 220px;
+   margin: 50px 0px 50px 150px;
    float: left;
 }
 
 #caixa_2_logo{
     height: 220px;
-    margin: 90px 0px 0px 270px;;
+    margin: 90px 0px 0px 150px;;
     float: left;
 }
 
 #caixa_2_texto{
-    margin: 91.2px auto;
-    margin-right: 270px;
+    margin: 52.5px auto;
+    margin-right: 150px;
     margin-left: 0;
     float: right;
     width: 600.25px;
+}
+
+#caixa_3_logo{
+    height: 220px;
+    margin: 50px 0px 50px 200px;;
+    float: left; 
 }
 
 #caixa_3_texto{
@@ -73,14 +79,14 @@ body{
     text-align: center;
 }
     .caixa_branca_h1{
-        font-weight: bold;
-        font-size: 2em;
+        /*font-weight: bold;*/
+        /*font-size: 2em;*/
         font-family: Arial, Helvetica, sans-serif;
         color: #394e84;
     }
 
     .caixa_branca_h2{
-        font-size: 1.5em;
+        /*font-size: 1.5em;*/
         font-family: Arial, Helvetica, sans-serif;
     }
 
@@ -91,14 +97,14 @@ body{
     text-align: center;
 }
     .caixa_azul_h1{
-        font-weight: bold;
-        font-size: 2em;
+        /*font-weight: bold;*/
+        /*font-size: 2em;*/
         font-family: Arial, Helvetica, sans-serif;
         color: #ffffff;
     }
 
     .caixa_azul_h2{
-        font-size: 1.5em;
+        /*font-size: 1.5em;*/
         font-family: Arial, Helvetica, sans-serif;
         color: #ffffff;
         font-weight: inherit;
