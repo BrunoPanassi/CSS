@@ -1,0 +1,31 @@
+#box-img{
+    width: 300px;
+    height: 300px;
+    background: url("../img/camera.png"); /*A tag '../' sobe o nível do diretório*/
+}
+
+/*#box h1{
+    background: rgba(255, 255, 255, 0.5); /* 'rgba' define transparência setando o quarto valor
+    border-bottom: 2px solid #FFF;
+}*/
+
+#box-border-box{
+    width: 300px;
+    height: 300px;
+    background: #b9c941;
+    /*padding: 50px;*/ 
+    box-sizing: border-box; /*Independente do padding o tamanho da caixa vai ser o mesmo*/
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    /*border-radius: 20px 80px; /*Arredondar a borda*/
+    /*-webkit-border-radius: 20px 80px; /*'webkit' para funcionar em versões anteriores do Chrome*/
+    /*-moz-border-radius: 20px 80px; /*'moz' para funcionar em versões anteriores do mozila*/
+}
+
+#box{
+    width: 300px;
+    height: 300px;
+    /*background: linear-gradient(20deg, red, yellow);*/
+    background: radial-gradient(red, yellow);
+}
+
