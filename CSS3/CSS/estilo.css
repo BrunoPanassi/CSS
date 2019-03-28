@@ -1,7 +1,47 @@
-#box{
+#box-img{
+    width: 300px;
+    height: 300px;
+    background: url("../img/camera.png"); /*A tag '../' sobe o nível do diretório*/
+}
+
+#box-shadow{
+    width: 400px;
+    height: 400px;
+    margin: 50px auto;
+    padding: 8px;
+    background: #009670;
+    box-shadow: 5px 5px 2px 5px rgba(0,0,0,0.8), -5px -5px 5px 5px red; /*O quarto valor se refere ao spread*/
+                                                 /*Quando é aplicado um segundo valor é aplicado uma segunda sombra*/
+}
+
+#text-shadow{
+    /*background: rgba(255, 255, 255, 0.5); /* 'rgba' define transparência setando o quarto valor
+    border-bottom: 2px solid #FFF;*/
+
+    color: white;
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    /*text-shadow: 5px 5px 5px black; /*Primeiro valor move horizontalmente, segundo valor move verticalmente, e terceiro valor se refere ao blur*/
+    text-shadow: 5px 5px rgba(0,0,0,0.5);
+}
+
+#box-border-box{
     width: 300px;
     height: 300px;
     background: #b9c941;
-    border-radius: 20px 50px; /*Arredondar a borda*/
-    padding: 20px;
+    /*padding: 50px;*/ 
+    box-sizing: border-box; /*Independente do padding o tamanho da caixa vai ser o mesmo*/
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    /*border-radius: 20px 80px; /*Arredondar a borda*/
+    /*-webkit-border-radius: 20px 80px; /*'webkit' para funcionar em versões anteriores do Chrome*/
+    /*-moz-border-radius: 20px 80px; /*'moz' para funcionar em versões anteriores do mozila*/
 }
+
+#box-gradient{ 
+    width: 300px;
+    height: 300px;
+    /*background: linear-gradient(20deg, red, yellow);*/
+    background: radial-gradient(red, yellow);
+}
+
