@@ -1,0 +1,17 @@
+#box-shadow{
+    width: 400px;
+    height: 400px;
+    margin: 50px auto;
+    padding: 8px;
+    background: #009670;
+    box-shadow: 5px 5px 2px 5px rgba(0,0,0,0.8), -5px -5px 5px 5px red; /*O quarto valor se refere ao spread*/
+                                                 /*Quando é aplicado um segundo valor é aplicado uma segunda sombra*/
+}
+
+#text-shadow{
+    color: white;
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    /*text-shadow: 5px 5px 5px black; /*Primeiro valor move horizontalmente, segundo valor move verticalmente, e terceiro valor se refere ao blur*/
+    text-shadow: 5px 5px rgba(0,0,0,0.5);
+}
