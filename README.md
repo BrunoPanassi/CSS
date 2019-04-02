@@ -16,8 +16,12 @@ CSS repository in construction.
 
 [Search Box](https://www.youtube.com/watch?v=v1PeTDrw6OY)
 
+[Social Media Buttons](https://www.youtube.com/watch?v=fDm0WJ_66d0)
+
 ### Web Design
 [5 Cool Web Design Layout](https://www.youtube.com/watch?v=flBRDpNXRqs)
 
 ### Parallax
 [Background Effect on Mouse Move](https://www.youtube.com/watch?v=dc4zyX6DuOc)
+
+[11 Awesome Parallax Examples](https://www.youtube.com/watch?v=seD2YPrMHLA)
