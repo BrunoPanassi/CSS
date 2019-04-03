@@ -1,0 +1,33 @@
+#box-img{
+    width: 300px;
+    height: 300px;
+    background: url("../img/camera.png"); /*A tag '../' sobe o nível do diretório*/
+}
+
+#box h1{
+    background: rgba(255, 255, 255, 0.5); /* 'rgba' define transparência setando o quarto valor*/
+    border-bottom: 2px solid #FFF;
+}
+
+/*Animações*/
+
+/*Criando a animação*/
+@keyframes animacao-box{
+    from{background: red; border-radius: 0px;top: 0;left: 0;}
+    to  {background: yellow; border-radius: 300px;top: 200px;left: 200px;}
+}
+
+#box-animacao{
+    width: 300px;
+    height: 300px;
+    background: red;
+    position: relative;
+    /*
+    animation-name: animacao-box;
+    animation-duration: 5s; /*Tempo de duração da animação
+    animation-delay: 3s; /*Tempo antes da animação começar
+    animation-iteration-count: 2; /*Quantidade de vezes que a animação pode ser executada
+    animation-direction: alternate; /*A animação acontece e volta para o estado inicial*/
+
+    animation: animacao-box 5s 3s 2 alternate;
+}
