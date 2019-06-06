@@ -30,3 +30,6 @@ CSS repository in construction.
 
 ### Page Scroll
 [Page Scroll Effects](https://codyhouse.co/gem/page-scroll-effects)
+
+### Icons
+[Icons (Nucleo App)](https://nucleoapp.com/?ref=2214)
