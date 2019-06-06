@@ -27,3 +27,6 @@ CSS repository in construction.
 [Background Effect on Mouse Move](https://www.youtube.com/watch?v=dc4zyX6DuOc)
 
 [11 Awesome Parallax Examples](https://www.youtube.com/watch?v=seD2YPrMHLA)
+
+### Page Scroll
+[Page Scroll Effects](https://codyhouse.co/gem/page-scroll-effects)
