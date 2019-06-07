@@ -40,3 +40,5 @@ CSS repository in construction.
 [ScroolSpy](https://www.w3schools.com/bootstrap/bootstrap_scrollspy.asp)
 
 [ScrollingNav](https://startbootstrap.com/templates/scrolling-nav/)
+
+[Navbar fixed on scrooling(with transitions)](https://bootsnipp.com/snippets/558WB)
